@@ -11,7 +11,7 @@ html, body{
 }
 .header_menu{
   text-align: left;
-  width: 44%;
+  width: 45%;
   height: 150px;
   float: left;
 }
@@ -104,7 +104,7 @@ html, body{
 /*모바일*/
 @media(max-width: 1024px){
  .header{height: 130px; padding: 0px;}
- .header_menu{height: 100px; width: 32%;}
+ .header_menu{height: 100px; width: 30%;}
  .header_menu>ul{display: none;}
  .header_menu>a>img{margin-left: 35px; margin-top: 55px;}
 

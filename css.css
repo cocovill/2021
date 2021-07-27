@@ -11,7 +11,7 @@ html, body{
 }
 .header_menu{
   text-align: left;
-  width: 44%;
+  width: 45%;
   height: 150px;
   float: left;
 }
@@ -152,7 +152,7 @@ html, body{
 /*모바일*/
 @media(max-width: 1024px){
  .header{height: 130px; padding: 0px;}
- .header_menu{height: 100px; width: 32%;}
+ .header_menu{height: 100px; width: 35%;}
  .header_menu>ul{display: none;}
  .header_menu>a>img{margin-left: 35px; margin-top: 55px;}
 
@@ -178,10 +178,10 @@ html, body{
 
 /*태블릿*/
 @media(max-width: 720px){
+  .header_menu{height: 100px; width: 30%;}
   .column_box_m{padding-bottom: 145px;}
   .column_box_m>a>img{ margin-bottom: 10px; width: 98%;}
 }
-
 
 /*PC*/
 @media(min-width: 1025px){
