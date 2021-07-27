@@ -84,7 +84,7 @@ html, body{
 .column_box>div>a>img{
   box-shadow: 2px 2px 8px #ccc;
 }
-.column_box_m>div>a>img{
+.column_box_m>a>img{
   box-shadow: 2px 2px 8px #ccc;
 }
 .column1 {
@@ -172,14 +172,14 @@ html, body{
  .column_box_m>img{padding-left: 2%; padding-right: 2%; padding-bottom: 60px;}
 
  .profile_bg>img{display: none;}
- .profile{height: 1200px; background-color: red;}/*#2b2e33*/
+ .profile{height: 1200px; background-color: #2b2e33;}
  .download{top: 140px; left: 0px; margin: 0 auto;}
 }
 
 
 @media(max-width: 720px){
   .column_box_m{padding-bottom: 145px;}
-  .column_box_m>img{ padding-bottom: 10px; width: 98%;}
+  .column_box_m>a>img{ margin-bottom: 10px; width: 98%;}
 }
 
 

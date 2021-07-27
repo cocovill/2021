@@ -62,21 +62,30 @@ html, body{
 .portfolio{
   text-align: center;
   width: 100%;
-  background-color: black;
+  background-color: #ffffff;
   padding-top: 155px;
 }
+
+.img_full{
+  margin: 0 auto;
+  width: 1000px;
+}
+.img_full>img{
+  padding-top: 50px;
+  width: 880px;
+}
+
 .start{
   margin-bottom: 20px;
 }
 .down{
   padding-bottom: 60px;
 }
-
 .contact{
   float: left;
   width: 100%;
   height: 100%;
-  background-color: ivory;/*#2b2e33*/
+  background-color: #ffffff;
   text-align: center;
   padding-top: 155px;
   padding-bottom: 130px;
@@ -107,7 +116,8 @@ html, body{
  .search>a>img{margin-right: 38px; margin-top: 55px;}
  .middle{display: none;}
 
- .img_full>img{width: 100%; height: 100%;}
+ .img_full{margin: 0 auto; width: 100%;}
+ .img_full>img{width: 100%; height: 100%; padding-top: 10px;}
 }
 
 
