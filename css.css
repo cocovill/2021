@@ -150,7 +150,7 @@ video { width: 100%; }
 /*모바일*/
 @media(max-width: 1024px){
  .header{height: 130px; padding: 0px;}
- .header_menu{height: 130px; width: 35%;}
+ .header_menu{height: 130px; width: 34%;}
  .header_menu>ul{display: none;}
  .header_menu>a>img{margin-left: 35px; margin-top: 55px;}
 
@@ -176,7 +176,7 @@ video { width: 100%; }
 
 /*태블릿*/
 @media(max-width: 720px){
-  .header_menu{height: 130px; width: 35%;}
+  .header_menu{height: 130px; width: 34%;}
   .logo>a>img{width: 70px; height: 66px; padding-top: 35px;}
   .column_box_m{padding-bottom: 145px;}
   .column_box_m>a>img{ margin-bottom: 10px; width: 98%;}
