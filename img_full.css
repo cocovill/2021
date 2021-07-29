@@ -109,17 +109,18 @@ html, body{
 /*미디어쿼리 선언*/
 /*모바일*/
 @media(max-width: 1024px){
- .header{height: 130px; padding: 0px;}
- .header_menu{height: 100px; width: 34%;}
+ .header{height: 120px; padding: 0px;}
+ .header_menu{height: 120px; width: 34%;}
  .header_menu>ul{display: none;}
- .header_menu>a>img{margin-left: 35px; margin-top: 55px;}
+ .header_menu>a>img{margin-left: 35px; margin-top: 45px;}
 
- .logo{ width: 35%; height: 130px;}
+ .logo_m{display: none;}
+ .logo{ width: 35%; height: 120px;}
  .logo>a{margin: 0 auto;}
- .logo>a>img{padding-top: 25px;}
+ .logo>a>img{padding-top: 20px;}
 
- .search{height: 130px; width: 30%;}
- .tell{margin-right: 38px; margin-top: 55px;}
+ .search{height: 120px; width: 30%;}
+ .tell{margin-right: 38px; margin-top: 45px;}
  .middle{display: none;}
 
  .img_full{margin: 0 auto; width: 100%;}
@@ -131,7 +132,9 @@ html, body{
   .header{height: 100px;}
   .header_menu{height: 100px; width: 34%;}
   .header_menu>a>img{margin-top: 40px;}
-  .logo>a>img{width: 70px; height: 66px; padding-top: 20px;}
+  .logo{display: none;}
+  .logo_m{display: block; width: 35%; height: 100px; float: left; text-align: center;}
+  .logo_m>a>img{padding-top: 16px;}
   .tell{margin-top: 38px;}
   .portfolio{padding-top: 255px;}
   .column_box_m{padding-bottom: 145px;}
@@ -144,8 +147,8 @@ html, body{
 /*PC*/
 @media(min-width: 1025px){
   .header_menu>a>img{display: none;}
+  .logo_m{display: none;}
   .tell{display: none;}
   .column_box_m{display: none;}
   .profile_m{display: none;}
-
 }
