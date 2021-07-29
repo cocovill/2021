@@ -5,19 +5,20 @@ html, body{
 }
 .header{
   width: 100%;
-  height: 150px;
-  background-color: ivory;/*화이트로 바꿀예정*/
-  padding-top: 50px;
+  height: 120px;
+  background-color: black; opacity: 80%;
+  position: fixed;
 }
 .header_menu{
   text-align: left;
-  width: 45%;
-  height: 150px;
+  width: 47%;
+  height: 120px;
   float: left;
+  opacity: 100%;
 }
 .header_menu>ul{
   height:21px;
-  margin-top: 65px;
+  margin-top: 50px;
 }
 .header_menu>ul>li{
   display: inline;
@@ -26,12 +27,11 @@ html, body{
 }
 .header_menu>ul>li>a{
   font-family: Arial;
-  color: #777777;
+  color: #99ccff;
   text-decoration: none;
 }
 .header_menu>ul>li>a:hover{
-  color: #444444;
-  font-weight: 550;
+  color: #ffffff;
 }
 .header_menu>ul>li>a:active{
   font-weight: 550;
@@ -41,19 +41,25 @@ html, body{
 }
 .logo{
   text-align: center;
-  width: 10%;
-  height: 150px;
   float: left;
+  opacity: 100%;
+}
+.logo>a>img{
+  padding-top: 20px;
 }
 .search{
   text-align: right;
-  width: 45%;
-  height: 150px;
   float: right;
 }
 .search .middle{
   height: 21px;
-  margin-top: 65px;
+  margin-top: 50px;
+}
+.middle{
+  opacity: 100%;
+}
+.tell{
+  opacity: 100%;
 }
 .search .middle a img{
   margin-right: 46px;
@@ -63,7 +69,7 @@ html, body{
   text-align: center;
   width: 100%;
   background-color: #ffffff;
-  padding-top: 155px;
+  padding-top: 305px;
 }
 
 .img_full{
@@ -104,16 +110,16 @@ html, body{
 /*모바일*/
 @media(max-width: 1024px){
  .header{height: 130px; padding: 0px;}
- .header_menu{height: 100px; width: 30%;}
+ .header_menu{height: 100px; width: 34%;}
  .header_menu>ul{display: none;}
  .header_menu>a>img{margin-left: 35px; margin-top: 55px;}
 
- .logo{ width: 31%; height: 130px;}
+ .logo{ width: 35%; height: 130px;}
  .logo>a{margin: 0 auto;}
- .logo>a>img{width: 180px; height: 135px;}
+ .logo>a>img{padding-top: 25px;}
 
- .search{height: 130px; width: 33%;}
- .search>a>img{margin-right: 38px; margin-top: 55px;}
+ .search{height: 130px; width: 30%;}
+ .tell{margin-right: 38px; margin-top: 55px;}
  .middle{display: none;}
 
  .img_full{margin: 0 auto; width: 100%;}
@@ -122,15 +128,23 @@ html, body{
 
 /*태블릿*/
 @media(max-width: 720px){
+  .header{height: 100px;}
+  .header_menu{height: 100px; width: 34%;}
+  .header_menu>a>img{margin-top: 40px;}
+  .logo>a>img{width: 70px; height: 66px; padding-top: 20px;}
+  .tell{margin-top: 38px;}
+  .portfolio{padding-top: 255px;}
   .column_box_m{padding-bottom: 145px;}
-  .column_box_m>img{ padding-bottom: 10px; width: 98%;}
+  .column_box_m>a>img{ margin-bottom: 10px; width: 98%;}
 }
+@media(max-width: 845px){
 
+}
 
 /*PC*/
 @media(min-width: 1025px){
   .header_menu>a>img{display: none;}
-  .search>a>img{display: none;}
+  .tell{display: none;}
   .column_box_m{display: none;}
   .profile_m{display: none;}
 
